@@ -1,0 +1,42 @@
+@import "../utilities/variables";
+
+html {
+    background-color: nth($paleta, 1);
+
+    nav {
+        width: 80%;
+        margin: 4rem 0 0 auto;
+        padding: 1rem;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                font-family: nth($fuentes, 1);
+                font-weight: 100;
+                font-size: 2rem;
+                color: nth($paleta, 4);
+            }
+        }
+    }
+}
+
+.intro {
+
+    .intro__titular {
+
+        h1 {
+            font-family: nth($fuentes, 1), cursive;
+            color: #EDEDED;
+            font-size: 8rem;
+            width: 50vw;
+            padding: 5rem 0 0 1rem;
+        }
+
+        h2 {
+            font-family: nth($fuentes, 2), serif;
+            color: nth($paleta, 3);
+        }
+    }
+}
